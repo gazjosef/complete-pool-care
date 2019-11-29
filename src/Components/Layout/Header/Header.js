@@ -13,13 +13,13 @@ function Header() {
         <nav>
           <ul>
             <li className="current">
-              <a href="#">Home</a>
+              <h4>Home</h4>
             </li>
             <li>
-              <a href="#">About</a>
+              <h4>About</h4>
             </li>
             <li>
-              <a href="#">Services</a>
+              <h4>Services</h4>
             </li>
           </ul>
         </nav>
