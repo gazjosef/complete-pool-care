@@ -3,44 +3,32 @@ import "./header.css";
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container">
-        <a href="index.html" class="navbar-brand">
-          Complete Pool Care
-        </a>
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div className="container">
+        <div className="navbar-brand">Complete Pool Care</div>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           data-toggle="collapse"
           data-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="index.html" class="nav-link">
-                Home
-              </a>
+        <div id="navbarCollapse" className="collapse navbar-collapse">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <div className="nav-link">Home</div>
             </li>
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">
-                About
-              </a>
+            <li className="nav-item">
+              <div className="nav-link">About</div>
             </li>
-            <li class="nav-item">
-              <a href="services.html" class="nav-link">
-                Services
-              </a>
+            <li className="nav-item">
+              <div className="nav-link">Services</div>
             </li>
-            <li class="nav-item">
-              <a href="blog.html" class="nav-link">
-                Blog
-              </a>
+            <li className="nav-item">
+              <div className="nav-link">Blog</div>
             </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">
-                Contact
-              </a>
+            <li className="nav-item">
+              <div className="nav-link">Contact</div>
             </li>
           </ul>
         </div>

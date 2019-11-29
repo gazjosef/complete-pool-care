@@ -1,6 +1,6 @@
 /* Showcase */
 
-#showcase {
+/* #showcase {
   min-height: 400px;
   background: url("./showcase.jpg") no-repeat 0 -400px;
   text-align: center;
@@ -36,11 +36,11 @@
   padding: 4px;
   height: 25px;
   width: 250px;
-}
+} */
 
 /* Media Queries */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #newsletter h1,
   #newsletter form {
     float: none;
@@ -61,4 +61,4 @@
     width: 100%;
     margin-bottom: 5px;
   }
-}
+} */

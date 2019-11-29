@@ -1,20 +1,23 @@
 import React from "react";
 import "./App.css";
 
+// LAYOUT
 import Header from "./Components/Layout/Header/Header";
 import Showcase from "./Components/Showcase/Showcase";
+import Showcase2 from "./Components/Layout/Showcase/Showcase";
 import Boxes from "./Components/Boxes/Boxes";
+import Footer from "./Components/Footer/Footer";
 
+// PAGES
 import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
-
-import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Showcase />
+      <Showcase2 />
+      {/* <Showcase /> */}
       <Boxes />
       <About />
       <Services />
