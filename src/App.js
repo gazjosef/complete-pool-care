@@ -3,9 +3,9 @@ import "./App.css";
 
 // LAYOUT
 import Header from "./Components/Layout/Header/Header";
-import Showcase from "./Components/Showcase/Showcase";
+// import Showcase from "./Components/Showcase/Showcase";
 import Showcase2 from "./Components/Layout/Showcase/Showcase";
-import Boxes from "./Components/Boxes/Boxes";
+import HomeIcons from "./Components/Layout/HomeIcons/HomeIcons";
 import Footer from "./Components/Footer/Footer";
 
 // PAGES
@@ -17,8 +17,8 @@ function App() {
     <div className="App">
       <Header />
       <Showcase2 />
+      <HomeIcons />
       {/* <Showcase /> */}
-      <Boxes />
       <About />
       <Services />
       <Footer />
