@@ -3,26 +3,18 @@ import "./App.css";
 
 // LAYOUT
 import Header from "./Components/Layout/Header/Header";
-// import Showcase from "./Components/Showcase/Showcase";
-import Showcase2 from "./Components/Layout/Showcase/Showcase";
+import Showcase from "./Components/Layout/Showcase/Showcase";
 import HomeIcons from "./Components/Layout/HomeIcons/HomeIcons";
 import Video from "./Components/Layout/Video/Video";
-import Footer from "./Components/Footer/Footer";
-
-// PAGES
-import About from "./Components/About/About";
-import Services from "./Components/Services/Services";
+import Footer from "./Components/Layout/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Showcase2 />
+      <Showcase />
       <HomeIcons />
       <Video />
-      {/* <Showcase /> */}
-      {/* <About /> */}
-      {/* <Services /> */}
       <Footer />
     </div>
   );
