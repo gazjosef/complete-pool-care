@@ -6,6 +6,7 @@ import Header from "./Components/Layout/Header/Header";
 // import Showcase from "./Components/Showcase/Showcase";
 import Showcase2 from "./Components/Layout/Showcase/Showcase";
 import HomeIcons from "./Components/Layout/HomeIcons/HomeIcons";
+import Video from "./Components/Layout/Video/Video";
 import Footer from "./Components/Footer/Footer";
 
 // PAGES
@@ -18,9 +19,10 @@ function App() {
       <Header />
       <Showcase2 />
       <HomeIcons />
+      <Video />
       {/* <Showcase /> */}
-      <About />
-      <Services />
+      {/* <About /> */}
+      {/* <Services /> */}
       <Footer />
     </div>
   );
