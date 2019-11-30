@@ -6,6 +6,7 @@ import Header from "./Components/Layout/Header/Header";
 import Showcase from "./Components/Layout/Showcase/Showcase";
 import HomeIcons from "./Components/Layout/HomeIcons/HomeIcons";
 import Video from "./Components/Layout/Video/Video";
+import Gallery from "./Components/Layout/Gallery/Gallery";
 import Footer from "./Components/Layout/Footer/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Showcase />
       <HomeIcons />
       <Video />
+      <Gallery />
       <Footer />
     </div>
   );

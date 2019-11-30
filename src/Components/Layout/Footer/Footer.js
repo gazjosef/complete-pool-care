@@ -1,20 +1,20 @@
 import React from "react";
 import "./footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer id="main-footer" class="text-center p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col">
+    <footer id="main-footer" className="text-center p-4">
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <p>
-              Copyright &copy; <span id="year"></span> Glozzom
+              Copyright &copy; <span id="year"></span> Complete Pool Care
             </p>
           </div>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

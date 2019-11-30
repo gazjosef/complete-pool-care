@@ -4,17 +4,17 @@ import "./video.css";
 const Video = () => {
   return (
     <section id="video-play">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container p-5">
+      <div className="dark-overlay">
+        <div className="row">
+          <div className="col">
+            <div className="container p-5">
               <h3
-                class="video"
+                className="video"
                 data-video="https://www.youtube.com/embed/HnwsG9a5riA"
                 data-toggle="modal"
                 data-target="#videoModal"
               >
-                <i class="fas fa-play fa-3x"></i>
+                <i className="fas fa-play fa-3x"></i>
               </h3>
               <h1>See What We Do</h1>
             </div>

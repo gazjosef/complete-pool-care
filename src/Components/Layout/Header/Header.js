@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 
-function Header() {
+const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container">
@@ -35,6 +35,6 @@ function Header() {
       </div>
     </nav>
   );
-}
+};
 
 export default Header;
