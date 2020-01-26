@@ -24,7 +24,7 @@ const Showcase = () => {
                   Obcaecati dolorum quae ratione architecto eligendi nobis aut
                   quos maxime accusantium illum.
                 </p>
-                <h3 className="btn btn-danger btn-lg">Sign Up Now</h3>
+                <h3 className="btn btn-info btn-lg">Sign Up Now</h3>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Showcase = () => {
                   Obcaecati dolorum quae ratione architecto eligendi nobis aut
                   quos maxime accusantium illum.
                 </p>
-                <h3 className="btn btn-primary btn-lg">Learn More</h3>
+                <h3 className="btn btn-info btn-lg">Learn More</h3>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Showcase = () => {
                   Obcaecati dolorum quae ratione architecto eligendi nobis aut
                   quos maxime accusantium illum.
                 </p>
-                <h3 className="btn btn-success btn-lg">Learn More</h3>
+                <h3 className="btn btn-info btn-lg">Learn More</h3>
               </div>
             </div>
           </div>
