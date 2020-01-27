@@ -2,7 +2,7 @@
   "name": "complete-pool-care",
   "version": "0.1.0",
   "private": true,
-  "homepage": "link-to-your-repository",
+  "homepage": "https://gazjosef.github.io/complete-pool-care/",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.9.0",
