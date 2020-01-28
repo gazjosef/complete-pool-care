@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,13 +17,16 @@ const Header = () => {
         <div id="navbarCollapse" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <div className="nav-link">Home</div>
+              {/* <div className="nav-link">Home</div> */}
+              <Link to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <div className="nav-link">About</div>
+              {/* <div className="nav-link">About</div> */}
+              <Link to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <div className="nav-link">Services</div>
+              {/* <div className="nav-link">Services</div> */}
+              <Link to="/services">Services</Link>
             </li>
             <li className="nav-item">
               <div className="nav-link">Shop</div>

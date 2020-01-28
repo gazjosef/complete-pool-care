@@ -6,7 +6,7 @@ import HomeIcons from "../Layout/HomeIcons/HomeIcons";
 import Video from "../Layout/Video/Video";
 import Gallery from "../Layout/Gallery/Gallery";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="container">
       <Showcase />
@@ -16,3 +16,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;
