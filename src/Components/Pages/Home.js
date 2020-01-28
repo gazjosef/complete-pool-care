@@ -8,7 +8,7 @@ import Gallery from "../Layout/Gallery/Gallery";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <Showcase />
       <HomeIcons />
       <Video />

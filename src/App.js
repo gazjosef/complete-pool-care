@@ -20,10 +20,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Showcase />
-        <HomeIcons />
-        <Video />
-        <Gallery />
 
         <Switch>
           <Route exact path="/" component={Home} />
