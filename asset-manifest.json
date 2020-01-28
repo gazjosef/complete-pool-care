@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/complete-pool-care/static/css/main.8edfcd2b.chunk.css",
+    "main.js": "/complete-pool-care/static/js/main.8e027f02.chunk.js",
+    "main.js.map": "/complete-pool-care/static/js/main.8e027f02.chunk.js.map",
+    "runtime-main.js": "/complete-pool-care/static/js/runtime-main.66a3ad36.js",
+    "runtime-main.js.map": "/complete-pool-care/static/js/runtime-main.66a3ad36.js.map",
+    "static/js/2.70738b0d.chunk.js": "/complete-pool-care/static/js/2.70738b0d.chunk.js",
+    "static/js/2.70738b0d.chunk.js.map": "/complete-pool-care/static/js/2.70738b0d.chunk.js.map",
+    "index.html": "/complete-pool-care/index.html",
+    "precache-manifest.bb5f3e8df4a07efc1a962619fb966221.js": "/complete-pool-care/precache-manifest.bb5f3e8df4a07efc1a962619fb966221.js",
+    "service-worker.js": "/complete-pool-care/service-worker.js",
+    "static/css/main.8edfcd2b.chunk.css.map": "/complete-pool-care/static/css/main.8edfcd2b.chunk.css.map",
+    "static/js/2.70738b0d.chunk.js.LICENSE": "/complete-pool-care/static/js/2.70738b0d.chunk.js.LICENSE",
+    "static/media/video.css": "/complete-pool-care/static/media/media.78d7b0df.jpg",
+    "static/media/showcase.css": "/complete-pool-care/static/media/swimming-pool-389267_1280.eda09993.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66a3ad36.js",
+    "static/js/2.70738b0d.chunk.js",
+    "static/css/main.8edfcd2b.chunk.css",
+    "static/js/main.8e027f02.chunk.js"
+  ]
+}
