@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3b95886a0fee32a45f65500cc639c4e",
+    "revision": "c72b5be570b765a66f6a4e028bc7f4b3",
     "url": "/complete-pool-care/index.html"
   },
   {
-    "revision": "35193ea7731fdca4cddb",
+    "revision": "875bfb472721a79e70b8",
     "url": "/complete-pool-care/static/css/main.8edfcd2b.chunk.css"
   },
   {
-    "revision": "0e222a83238b3e59e92f",
-    "url": "/complete-pool-care/static/js/2.70738b0d.chunk.js"
+    "revision": "29cc0dfc691822740ad9",
+    "url": "/complete-pool-care/static/js/2.0d64f79b.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/complete-pool-care/static/js/2.70738b0d.chunk.js.LICENSE"
+    "revision": "b9f9759b9b1285134e0534121ec7f9b0",
+    "url": "/complete-pool-care/static/js/2.0d64f79b.chunk.js.LICENSE"
   },
   {
-    "revision": "35193ea7731fdca4cddb",
-    "url": "/complete-pool-care/static/js/main.8e027f02.chunk.js"
+    "revision": "875bfb472721a79e70b8",
+    "url": "/complete-pool-care/static/js/main.9da3c10a.chunk.js"
   },
   {
     "revision": "8434eaa83baee0fd049d",
