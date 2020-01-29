@@ -34,11 +34,17 @@ const Header = () => {
                 Services
               </Link>
             </li>
-            <li className="nav-item">
-              <div className="nav-link">Shop</div>
+            <li className="nav-item nav-link">
+              {/* <div className="nav-link">Shop</div> */}
+              <Link to="/shop" style={{ textDecoration: "none" }}>
+                Shop
+              </Link>
             </li>
-            <li className="nav-item">
-              <div className="nav-link">Contact</div>
+            <li className="nav-item nav-link">
+              {/* <div className="nav-link">Contact</div> */}
+              <Link to="/contact" style={{ textDecoration: "none" }}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

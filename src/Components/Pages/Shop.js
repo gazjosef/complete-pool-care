@@ -1,7 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const Shop = () => {
-  return <div></div>;
+  return (
+  <Fragment>
+    <div className="container">
+      <h1>Shop</h1>
+    </div>
+  </Fragment>
+  );
 };
 
 export default Shop;
