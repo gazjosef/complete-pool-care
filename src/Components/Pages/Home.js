@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 // Layout
 import Showcase from "../Layout/Showcase/Showcase";
@@ -8,12 +8,12 @@ import Gallery from "../Layout/Gallery/Gallery";
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
       <Showcase />
       <HomeIcons />
       <Video />
       <Gallery />
-    </div>
+    </Fragment>
   );
 };
 

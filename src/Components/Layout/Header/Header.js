@@ -18,15 +18,21 @@ const Header = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-link active">
               {/* <div className="nav-link">Home</div> */}
-              <Link to="/">Home</Link>
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Home
+              </Link>
             </li>
             <li className="nav-item nav-link">
               {/* <div className="nav-link">About</div> */}
-              <Link to="/about">About</Link>
+              <Link to="/about" style={{ textDecoration: "none" }}>
+                About
+              </Link>
             </li>
             <li className="nav-item nav-link">
               {/* <div className="nav-link">Services</div> */}
-              <Link to="/services">Services</Link>
+              <Link to="/services" style={{ textDecoration: "none" }}>
+                Services
+              </Link>
             </li>
             <li className="nav-item">
               <div className="nav-link">Shop</div>
