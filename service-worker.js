@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/complete-pool-care/precache-manifest.4669f7f9b21bf7c4b1bad64b44e48838.js"
+  "/complete-pool-care/precache-manifest.671ff6ce8e558e15e3f5ab33b1614a61.js"
 );
 
 self.addEventListener('message', (event) => {
