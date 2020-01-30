@@ -13,8 +13,8 @@ const About = () => {
               <div className="profile">
                 <img src="" alt="" className="user" />
                 <blockquote>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?"
                 </blockquote>
                 <h3>
                   John Smith <span>Co-founder</span>
@@ -26,7 +26,7 @@ const About = () => {
                 <img src="" alt="" className="user" />
                 <blockquote>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?
+                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?"
                 </blockquote>
                 <h3>
                   John Smith <span>Co-founder</span>
@@ -37,8 +37,8 @@ const About = () => {
               <div className="profile">
                 <img src="" alt="" className="user" />
                 <blockquote>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae accusamus sequi dolorum quo, numquam dignissimos?"
                 </blockquote>
                 <h3>
                   John Smith <span>Co-founder</span>
