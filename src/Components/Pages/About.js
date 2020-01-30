@@ -1,10 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const About = () => {
   return (
-    <div className="container">
-      <h1>About</h1>
-    </div>
+    <Fragment>
+      <section className="testimonials">
+        <div className="container">
+          <h1>testimonials</h1>
+          <p className="text-center">Subscribe</p>
+        </div>
+      </section>
+    </Fragment>
   );
 };
 

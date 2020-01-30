@@ -1,0 +1,11 @@
+.testimonials {
+  margin: 50px auto;
+}
+
+.testimonials h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
