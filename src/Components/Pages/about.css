@@ -18,3 +18,35 @@
   width: 170px;
   margin: 20px auto 5px;
 }
+
+.testimonials .row {
+  margin-top: 30px;
+}
+
+.col-md-4 {
+  margin: 40px auto;
+}
+
+.profile {
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+
+.profile img {
+  top: -60px;
+  position: absolute;
+  left: calc(50% -60px);
+  border: 10px solid white;
+}
+
+.profile h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ff9800;
+}
+
+.user {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
