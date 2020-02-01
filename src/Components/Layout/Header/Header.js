@@ -17,31 +17,26 @@ const Header = () => {
         <div id="navbarCollapse" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-link active">
-              {/* <div className="nav-link">Home</div> */}
               <Link to="/" style={{ textDecoration: "none" }}>
                 Home
               </Link>
             </li>
             <li className="nav-item nav-link">
-              {/* <div className="nav-link">About</div> */}
               <Link to="/about" style={{ textDecoration: "none" }}>
                 About
               </Link>
             </li>
             <li className="nav-item nav-link">
-              {/* <div className="nav-link">Services</div> */}
               <Link to="/services" style={{ textDecoration: "none" }}>
                 Services
               </Link>
             </li>
             <li className="nav-item nav-link">
-              {/* <div className="nav-link">Shop</div> */}
               <Link to="/shop" style={{ textDecoration: "none" }}>
                 Shop
               </Link>
             </li>
             <li className="nav-item nav-link">
-              {/* <div className="nav-link">Contact</div> */}
               <Link to="/contact" style={{ textDecoration: "none" }}>
                 Contact
               </Link>
