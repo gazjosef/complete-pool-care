@@ -35,19 +35,20 @@ const Header = () => {
               </a>
               <div className="dropdown-menu">
                 <a href="profile.html" className="dropdown-item">
-                  <i className="fas fa-user-circle"></i> Pump Repair
+                  <i className="fas fa-hammer"></i> Pump Repair
                 </a>
                 <a href="settings.html" className="dropdown-item">
-                  <i className="fas fa-cog"></i> Pool Covers
+                  <i className="fas fa-square"></i> Pool Covers
                 </a>
                 <a href="settings.html" className="dropdown-item">
-                  <i className="fas fa-cog"></i> Pool Maintenance
+                  <i className="fas fa-tools"></i> Pool Maintenance
                 </a>
                 <a href="settings.html" className="dropdown-item">
-                  <i className="fas fa-cog"></i> Pool Lights
+                  <i className="fas fa-lightbulb"></i> Pool Lights
                 </a>
                 <a href="settings.html" className="dropdown-item">
-                  <i className="fas fa-cog"></i> Salt Water Pool Chlorinator
+                  <i className="fas fa-eye-dropper"></i> Salt Water Pool
+                  Chlorinator
                 </a>
               </div>
             </li>
