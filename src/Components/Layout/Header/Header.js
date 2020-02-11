@@ -26,10 +26,21 @@ const Header = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item nav-link">
-              <Link to="/services" style={{ textDecoration: "none" }}>
+            <li className="nav-item nav-link dropdown">
+              {/* <Link to="/services" style={{ textDecoration: "none" }}>
                 Services
-              </Link>
+              </Link> */}
+              <a href="#" className="dropdown-toggle" data-toggle="dropdown">
+                Services
+              </a>
+              <div className="dropdown-menu">
+                <a href="profile.html" className="dropdown-item">
+                  <i className="fas fa-user-circle"></i> Profile
+                </a>
+                <a href="settings.html" className="dropdown-item">
+                  <i className="fas fa-cog"></i> Settings
+                </a>
+              </div>
             </li>
             <li className="nav-item nav-link">
               <Link to="/shop" style={{ textDecoration: "none" }}>
