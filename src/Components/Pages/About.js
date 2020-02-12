@@ -7,7 +7,6 @@ const About = () => {
       <section className="testimonials">
         <div className="container">
           <h1>Testimonials</h1>
-          <p className="text-center">Subscribe</p>
           <div className="row">
             <div className="col-md-4 text-center">
               <div className="profile">
