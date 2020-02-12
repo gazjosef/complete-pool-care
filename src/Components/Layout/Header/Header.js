@@ -30,7 +30,11 @@ const Header = () => {
               {/* <Link to="/services" style={{ textDecoration: "none" }}>
                 Services
               </Link> */}
-              <a href="#" className="dropdown-toggle" data-toggle="dropdown">
+              <a
+                href="index.html"
+                className="dropdown-toggle"
+                data-toggle="dropdown"
+              >
                 Services
               </a>
               <div className="dropdown-menu">

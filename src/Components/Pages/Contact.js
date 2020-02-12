@@ -6,17 +6,8 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-8 offset-xl-2 py-5">
-            <h1>
-              Contact form Tutorial from{" "}
-              <a href="http://bootstrapious.com">Bootstrapious.com</a>
-            </h1>
+            <h1>Contact Us</h1>
 
-            <p className="lead">
-              This is a demo for our tutorial dedicated to crafting working
-              Bootstrap contact form with PHP and AJAX background.
-            </p>
-
-            {/* <!-- We're going to place the form here in the next step --> */}
             <form id="contact-form" method="post" action="contact.php">
               <div className="messages"></div>
               <div className="controls">
@@ -116,21 +107,6 @@ const Contact = () => {
                       className="btn btn-success btn-send"
                       value="Send message"
                     />
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-12">
-                    <p className="text-muted">
-                      <strong>*</strong> These fields are required. Contact form
-                      template by
-                      <a
-                        href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form"
-                        target="#"
-                      >
-                        Bootstrapious
-                      </a>
-                      .
-                    </p>
                   </div>
                 </div>
               </div>
