@@ -56,11 +56,11 @@ const Header = () => {
                 </a>
               </div>
             </li>
-            <li className="nav-item nav-link">
+            {/* <li className="nav-item nav-link">
               <Link to="/shop" style={{ textDecoration: "none" }}>
                 Shop
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item nav-link">
               <Link to="/contact" style={{ textDecoration: "none" }}>
                 Contact
