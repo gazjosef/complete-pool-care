@@ -1,17 +1,17 @@
-import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // LAYOUT
-import Header from "./Components/Layout/Header/Header";
-import Footer from "./Components/Layout/Footer/Footer";
+import { Header } from './Components/Layout/Header/Header';
+import Footer from './Components/Layout/Footer/Footer';
 
 // PAGES
-import Home from "./Components/Pages/Home";
-import About from "./Components/Pages/About";
-import Services from "./Components/Pages/Services";
-import Shop from "./Components/Pages/Shop";
-import Contact from "./Components/Pages/Contact";
+import Home from './Components/Pages/Home';
+import About from './Components/Pages/About';
+import Services from './Components/Pages/Services';
+import Shop from './Components/Pages/Shop';
+import Contact from './Components/Pages/Contact';
 
 function App() {
   return (

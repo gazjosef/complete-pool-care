@@ -1,8 +1,8 @@
-import React from "react";
-import "./header.css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './header.css';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+export const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container">
@@ -17,12 +17,12 @@ const Header = () => {
         <div id="navbarCollapse" className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-link active">
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/" style={{ textDecoration: 'none' }}>
                 Home
               </Link>
             </li>
             <li className="nav-item nav-link">
-              <Link to="/about" style={{ textDecoration: "none" }}>
+              <Link to="/about" style={{ textDecoration: 'none' }}>
                 About
               </Link>
             </li>
@@ -62,7 +62,7 @@ const Header = () => {
               </Link>
             </li> */}
             <li className="nav-item nav-link">
-              <Link to="/contact" style={{ textDecoration: "none" }}>
+              <Link to="/contact" style={{ textDecoration: 'none' }}>
                 Contact
               </Link>
             </li>
@@ -72,5 +72,3 @@ const Header = () => {
     </nav>
   );
 };
-
-export default Header;

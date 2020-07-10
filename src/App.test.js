@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from './App';
-import { CityDate } from './Components/Layout/CityDate/CityDate';
+import { Header } from './Components/Layout/Header/Header';
 
 it('should render CityDate', () => {
   const wrapper = shallow(<App />);
-  const cityDate = wrapper.find(CityDate);
+  const header = wrapper.find(Header);
 
-  expect(cityDate.exists()).toBe(true);
+  expect(header.exists()).toBe(true);
 });
