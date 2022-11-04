@@ -1,3 +1,4 @@
+/* Box sizing rules & remove default margin/padding */
 *,
 *::after,
 *::before {
@@ -6,52 +7,54 @@
   box-sizing: inherit;
 }
 
+/* Defines what 1rem is & set core root defaults */
 html {
-  // This defines what 1rem is
-  font-size: 62.5%;
+  font-size: 62.5%; // 10px/16px = 62.5% => 1rem = 10px
+
+  &:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
+/* Set box-sizing & background color */
 body {
   box-sizing: border-box;
-  background-color: $color-background;
 }
 
-////////////////////////////////////////
-// * HTML Elements
-////////////////////////////////////////
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-p {
-  line-height: 1.7;
-}
-
-ul {
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
-li {
-  line-height: 2.2;
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 600;
-  margin-bottom: 10px;
+a {
+  text-decoration: none;
+
+  &:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
 }
 
-////////////////////////////////////////
-// * .container
-////////////////////////////////////////
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
