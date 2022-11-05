@@ -2,7 +2,20 @@
   background-color: orangered;
 }
 
-.darken {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/homePool.jpg");
+.section-services {
+  &__boxes {
+    display: grid;
+
+    @include respond(big-desktop) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond(desktop) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond(phone) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }

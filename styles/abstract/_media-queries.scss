@@ -37,7 +37,7 @@ ORDER: Base + Typography > general layout + grid > page layout > components
     } // 1200px
   }
   @if $breakpoint == big-desktop {
-    @media (min-width: 112.5em) {
+    @media (max-width: 112.5em) {
       @content;
     } // 1800px
   }
@@ -59,7 +59,7 @@ ORDER: Base + Typography > general layout + grid > page layout > components
     } // 1280px
   }
   @if $breakpoint == desktop {
-    @media (min-width: 120em) {
+    @media (max-width: 120em) {
       @content;
     } // 1920px
   }
