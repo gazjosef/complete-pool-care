@@ -5,7 +5,9 @@
 .section-services {
   &__boxes {
     display: grid;
-    place-content: center;
+    grid-gap: 1rem;
+    justify-content: center;
+    // place-content: center;
 
     @include respond(big-desktop) {
       grid-template-columns: repeat(3, 1fr);

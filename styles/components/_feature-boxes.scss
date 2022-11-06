@@ -3,6 +3,8 @@
   border-radius: 5px;
   height: 32rem;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 
   @include respond(desktop) {
     width: 32.2rem;

@@ -5,7 +5,7 @@
     display: flex;
 
     li {
-      @include alignJustifyCenter;
+      @include flex-center;
 
       padding-left: 1rem;
       padding-right: 1rem;

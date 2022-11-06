@@ -3,9 +3,18 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <section className="section section-home">Home</section>
-      <section className="section">
+      <section className="section section-home | ">
+        <div className="u-container">
+          <h1>Home</h1>
+        </div>
+      </section>
+      <section className="section | u-bg-primary-300">
         <div className="section-services | u-container">
+          <div className="section-services__title">
+            <h1 className="primary-heading | u-center-text u-margin-bottom-medium">
+              Cheeck Us Out
+            </h1>
+          </div>
           <div className="section-services__boxes">
             <div className="feature-box box-1">
               <div className="feature-box__img">
